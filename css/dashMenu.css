@@ -1,0 +1,54 @@
+.dashMenu{
+    width: 22rem;
+}
+.dashMenu--wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.dashMenu__logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.dashMenu__logo--image{
+    width: 11rem;
+}
+.dashMenu__logo--name{
+    color: #2058a2;
+}
+.dashMenu__pages{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+}
+.dashMenu__pages--item{
+    display: flex;
+    gap: 4rem;
+}
+.dashMenu__subscribtion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--pink-color);
+    border-radius: 2rem;
+    gap: 2rem;
+    
+    
+}
+.dashMenu__subscribtion--image{
+    width: 100%;
+}
+.btn__subscribtion{
+    background-color: var(--darkpink-color);
+    border: 1rem solid var(--darkpink-color);
+    border-radius: 1rem;
+    
+}
