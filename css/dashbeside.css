@@ -1,0 +1,39 @@
+.dash__beside{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.beside__profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+
+}
+.beside__identifc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.identifc__image img{
+    background-color: var(--purple-color);
+    border-radius: 5rem;
+    width: 10rem;
+    height: 10rem;
+}
+.identifc__name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.identifc__name i{
+    background-color: var(--darkpink-color);
+    border-radius: 2rem;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    color: var(--light-color);
+    padding-top: 0.4rem;
+}
